@@ -1,0 +1,16 @@
+{
+  "name": "react-jade-precompiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"bin": "bin/react-jade-precompiler",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "react-jade": "^2.2.1"
+  }
+}
