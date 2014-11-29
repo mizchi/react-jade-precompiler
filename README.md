@@ -12,9 +12,17 @@ $ react-jade-precompiler template.jade # output to stdout
 $ react-jade-precompiler template.jade -o template.js # generate file
 ```
 
+It's runnable!
+
 ```js
-var tmpl = require('./template')
-tmpl({foo: 1, bar: ["param"]}) //=> Generate virtual DOM 
+var tmpl = require('./template');
+var React = require('react');
+
+React.createClass(
+  render: function(){
+    return tmpl({foo: 1, bar: ["param"]}); //=> Generate virtual DOM 
+	}
+)
 ```
 
 ## Options
